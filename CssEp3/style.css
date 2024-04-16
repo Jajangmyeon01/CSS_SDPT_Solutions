@@ -1,0 +1,18 @@
+.document1{
+    background-color: rgb(189, 130, 58);
+}
+.document2{
+    background-color: rgb(126, 69, 180);
+}
+body{
+    background-color: #87ceeb;
+}
+.document3{
+    background-color: darkgreen;
+}
+h2{
+    text-align: center;
+}
+#navigation{
+    background-color: cornflowerblue;
+}
