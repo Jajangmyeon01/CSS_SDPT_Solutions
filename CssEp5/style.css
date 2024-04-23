@@ -1,0 +1,40 @@
+.uppercase{
+    text-shadow: 10px 1px 10px rgb(87, 81, 81);
+    text-transform:uppercase   
+}
+.lowercase{
+    text-shadow: 10px 1px 5px rgb(96, 14, 250);
+    text-align: center;
+    text-transform: lowercase;
+}
+.capitalize{
+    text-shadow: 5px 1px 5px rgb(21, 161, 255);
+    text-align: right;
+    text-transform: capitalize;
+}
+.justify{
+    text-shadow: 5px 1px 5px rgb(253, 187, 233);
+    text-align: justify;
+    text-transform: capitalize;
+    text-align-last: left;
+    text-indent: 48px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 32px;
+    font-family: monospace;
+}
+.nowrap{
+    text-shadow: 10px 1px 5px rgb(133, 124, 214);
+    text-align: right;
+    white-space: nowrap;
+    font-family: monospace;
+}
+.pre{
+    text-shadow: 10px 1px 5px rgb(86, 255, 218);
+    white-space: pre;
+    text-align: center;
+    font-family: 'Dancing Script', cursive; 
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
