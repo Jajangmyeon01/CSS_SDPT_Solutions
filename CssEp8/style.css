@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+.label {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgb(255, 255, 255);   
+    font-family: Tahoma;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px 20px;
+
+}
+
+button:hover {
+    background-color: rgb(114, 131, 122);
+}
+
+button:active {
+    background-color: rgb(254, 254, 255);
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 1s;
+}
+input[type="password"]{
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 600px; 
+    }
+}
