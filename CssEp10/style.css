@@ -1,0 +1,298 @@
+body{
+    background-color:cornflowerblue
+}
+.container{
+    background-color: aquamarine;
+    display: inline;
+}
+.container2{
+    background-color: brown;
+    display: inline;
+}
+.container3{
+    background-color: brown;
+    display: block;
+}
+.container4{
+    background-color: brown;
+    display: none;
+}
+span{
+    background-color: darkgreen;
+    display: inline-block;
+    width: 500px;
+    margin-top: 10px;
+}
+.container5{
+    width: 100px;
+    height: 100px;
+    background-color:lightblue;
+    margin-top: 10px;
+    display: inline-block;
+}
+.container6{
+    width: 100px;
+    height: 100px;
+    background-color:lightcoral;
+    margin-top: 10px;
+    display: inline-block;
+}
+.container7{
+    width: 100px;
+    height: 100px;
+    background-color: lightcyan;
+    margin-top: 10px;
+    display: inline-block;
+}
+.container8{
+    width: 100px;
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+    margin-top: 10px;
+    display: inline-block;
+}
+.container9{
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    margin-top: 10px;
+    display: inline-block;
+}
+.container10{
+    width: 100px;
+    height: 100px;
+    background-color:lightpink;
+    margin-top: 10px;
+    display: inline-block;
+}
+.container11{
+    width: 100px;
+    height: 100px;
+    background-color:lightsalmon;
+    margin-top: 10px;
+    display: inline-block;
+}
+.container12{
+    width: 100px;
+    height: 100px;
+    background-color:lightseagreen;
+    margin-top: 10px;
+    display: inline-block;
+}
+.container13{
+    width: 100px;
+    height: 100px;
+    background-color:lightgreen;
+    margin-top: 10px;
+    display: inline-block;
+}
+.container14{
+    width: 100px;
+    height: 100px;
+    background-color:lightskyblue;
+    margin-top: 10px;
+    display: inline-block;
+}
+.container15{
+    width: 100px;
+    height: 100px;
+    background-color:lightslategray;
+    margin-top: 10px;
+    display: inline-block;
+}
+.container16{
+    width: 100px;
+    height: 100px;
+    background-color:limegreen;
+    margin-top: 10px;
+    display: inline-block;
+}
+h2{
+    text-align: center;
+}
+
+.bar1{
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    width: 500px;
+    height: 25px;
+    margin-top: 10px;
+    text-align: right;
+    color: white;
+}
+.bar2{
+    background-color: green;
+    display: inline-block;
+    width: 800px;
+    height: 25px;
+    margin-top: 20px;
+    text-align: right;
+    color:white;
+}
+.bar3{
+    background-color: red;
+    display: inline-block;
+    width: 1150px;
+    height: 25px;
+    margin-top: 20px;
+    text-align: right;
+    color:white;
+}
+.chart1 {
+    background-color: rgb(175, 53, 53);
+    display: inline-block;
+    width: 130px;
+    height: 500px; 
+    margin-inline-start: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden; 
+}
+.chart1 .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5); 
+    transition: height 0.3s ease; 
+}
+.chart1:hover .content {
+    height: 100%; 
+}
+.chart2 {
+    background-color: rgb(180, 120, 85);
+    display: inline-block;
+    width: 130px;
+    height: 450px; 
+    margin-inline-start: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden; 
+}
+.chart2 .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5); 
+    transition: height 0.3s ease; 
+}
+.chart2:hover .content {
+    height: 100%; 
+}
+.chart3 {
+    background-color: rgb(216, 197, 23);
+    display: inline-block;
+    width: 130px;
+    height: 400px; 
+    margin-inline-start: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden; 
+}
+.chart3 .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5); 
+    transition: height 0.3s ease; 
+}
+.chart3:hover .content {
+    height: 100%; 
+}
+.chart4 {
+    background-color: rgb(58, 202, 82);
+    display: inline-block;
+    width: 130px;
+    height: 250px; 
+    margin-inline-start: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden; 
+}
+.chart4 .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5); 
+    transition: height 0.3s ease; 
+}
+.chart4:hover .content {
+    height: 100%; 
+}
+.chart5 {
+    background-color: rgb(21, 146, 224);
+    display: inline-block;
+    width: 130px;
+    height: 200px; 
+    margin-inline-start: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden; 
+}
+.chart5 .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5); 
+    transition: height 0.3s ease; 
+}
+.chart5:hover .content {
+    height: 100%; 
+}
+.chart6 {
+    background-color: rgb(102, 27, 163);
+    display: inline-block;
+    width: 130px;
+    height: 100px; 
+    margin-inline-start: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden; 
+}
+.chart6 .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5); 
+    transition: height 0.3s ease; 
+}
+.chart6:hover .content {
+    height: 100%; 
+}
+.chart7 {
+    background-color: rgb(240, 94, 191);
+    display: inline-block;
+    width: 130px;
+    height: 360px; 
+    margin-inline-start: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden; 
+}
+.chart7 .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5); 
+    transition: height 0.3s ease; 
+}
+.chart7:hover .content {
+    height: 100%; 
+}
+
+
+
+
