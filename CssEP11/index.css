@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    padding: 50px
+} 
+a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 1s;
+}
+a:hover{
+    color: gold;
+}
